@@ -13,3 +13,6 @@ Now run the compiler, specifying the source directory (where your application’
 protoc -I=$SRC_DIR --go_out=$DST_DIR $SRC_DIR/person.proto
 protoc -I=. --go_out=. ./person.proto
 
+## References
+
+https://protobuf.dev/
